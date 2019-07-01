@@ -9,22 +9,29 @@ body {
 
 header {
     background: aqua;
-    height: 50px;
+    height: 60px;
+    margin: 0;
 
 }
 
 .navbar {
-    float: right;    
+    float: right;
+    margin: 0;    
 }
 
-.navbarp {
+.navbar-ul {
     list-style: none;
     padding: 0 30px;    
 }
 
-.navbarp li {
+.navbar-ul li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 5px 10px;
+}
+
+.navbar-ul a {
+    padding: 21px 0;
+    
 }
 
 main {
@@ -33,6 +40,11 @@ main {
 
 a:visited {
     text-decoration: none;
+}
+
+.navbar-ul a:hover {
+    background:darkblue;
+    color: white;
 }
 
 .banner {
