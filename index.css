@@ -7,30 +7,34 @@ body {
     
 }
 
-header {
+.navbar .logo {
+    float: left;
+    margin: auto 0;
+    padding: 10px 30px;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar {
     background: aqua;
-    height: 60px;
+    height: 40px;
     margin: 0;
 
 }
 
-.navbar {
-    float: right;
-    margin: 0;    
-}
-
 .navbar-ul {
     list-style: none;
-    padding: 0 30px;    
+    padding: 10px 30px;
+    float: right;
+    margin: 0;
+    display: block;
 }
 
 .navbar-ul li {
     display: inline-block;
-    padding: 5px 10px;
-}
-
-.navbar-ul a {
-    padding: 21px 0;
+    padding: 0 10px;
+    margin: 0;
+        
 }
 
 main {
@@ -39,6 +43,10 @@ main {
 
 a:visited {
     text-decoration: none;
+}
+
+.navbar-ul a {
+    padding: 13px 0;
 }
 
 .navbar-ul a:hover {
